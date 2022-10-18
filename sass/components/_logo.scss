@@ -1,0 +1,14 @@
+.logo--header {
+  display: block;
+  margin-left: 0;
+  margin-right: 93px;
+
+  font-family: $raleway;
+  font-weight: 700;
+  font-size: 26px;
+  color: $logo-color;
+
+  .logo__web {
+    color: $accent-color;
+  }
+}

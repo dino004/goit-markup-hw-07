@@ -1,0 +1,48 @@
+.contact-header {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu__item {
+    color: $primary-text-color;
+
+    & + & {
+            margin-left: 50px;
+        }
+}
+
+.contact-header__item {
+    height: 16px;
+
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
+}
+
+.contact-header__icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+            fill: $accent-color;
+        }
+}
+
+
+
+.contact-header__link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: currentColor;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+            color: $accent-color;
+        }
+}
