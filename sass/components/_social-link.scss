@@ -45,3 +45,40 @@
     fill: currentColor;
   }
 }
+
+
+.social-footer__join {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $header-bg-color;
+}
+
+.social-footer {
+  margin-left: 70px;
+}
+
+.social--footer {
+  display: flex;
+  justify-content: center;
+}
+
+.social__item--footer {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 0;
+  border-radius: 50%;
+  background-color: $social-footer-color;
+
+  &:not(:last-child) {
+      margin-right: 10px;
+    }
+}
+
+
+
+.social__icon--footer {
+  fill: $header-bg-color;
+}

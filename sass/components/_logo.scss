@@ -1,14 +1,22 @@
-.logo--header {
-  display: block;
-  margin-left: 0;
-  margin-right: 93px;
-
+.logo {
   font-family: $raleway;
   font-weight: 700;
   font-size: 26px;
-  color: $logo-color;
 
-  .logo__web {
-    color: $accent-color;
+  &--header {
+    display: block;
+    margin-left: 0;
+    margin-right: 93px;
+    color: $logo-color;
   }
+
+  &--footer {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: $header-bg-color;
+  }
+}
+
+.logo__web {
+  color: $accent-color;
 }
