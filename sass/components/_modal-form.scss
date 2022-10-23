@@ -69,20 +69,18 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
-    // fill: $accent-color;
-    fill: currentColor;
+    fill: $accent-color;
   }
 
   .input__field:hover + &,
   .input__field:focus + & {
-    // fill: $accent-color;
-    fill: currentColor;
+    fill: $accent-color;
   }
 
-  .input__field:placeholder-shown + & {
+  .input:placeholder-shown + & {
     fill: $title-text-color;
   }
-  .input__field:not(:placeholder-shown) + & {
+  .input:not(:placeholder-shown) + & {
     fill: $accent-color;
   }
 }

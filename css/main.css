@@ -149,13 +149,6 @@ ul {
   margin-left: auto;
 }
 
-.menu__item {
-  color: #757575;
-}
-.menu__item + .menu__item {
-  margin-left: 50px;
-}
-
 .contact-header__item {
   height: 16px;
 }
@@ -395,27 +388,27 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input__icon:hover {
-  fill: currentColor;
+  fill: #2196f3;
 }
 .input__field:hover + .input__icon, .input__field:focus + .input__icon {
-  fill: currentColor;
-}
-.input__field:-moz-placeholder-shown + .input__icon {
-  fill: #212121;
-}
-.input__field:-ms-input-placeholder + .input__icon {
-  fill: #212121;
-}
-.input__field:placeholder-shown + .input__icon {
-  fill: #212121;
-}
-.input__field:not(:-moz-placeholder-shown) + .input__icon {
   fill: #2196f3;
 }
-.input__field:not(:-ms-input-placeholder) + .input__icon {
+.input:-moz-placeholder-shown + .input__icon {
+  fill: #212121;
+}
+.input:-ms-input-placeholder + .input__icon {
+  fill: #212121;
+}
+.input:placeholder-shown + .input__icon {
+  fill: #212121;
+}
+.input:not(:-moz-placeholder-shown) + .input__icon {
   fill: #2196f3;
 }
-.input__field:not(:placeholder-shown) + .input__icon {
+.input:not(:-ms-input-placeholder) + .input__icon {
+  fill: #2196f3;
+}
+.input:not(:placeholder-shown) + .input__icon {
   fill: #2196f3;
 }
 

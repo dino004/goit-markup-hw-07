@@ -3,14 +3,6 @@
   margin-left: auto;
 }
 
-.menu__item {
-  color: $primary-text-color;
-
-  & + & {
-    margin-left: 50px;
-  }
-}
-
 .contact-header__item {
   height: 16px;
 
